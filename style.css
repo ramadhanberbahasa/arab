@@ -6,6 +6,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .depan {
+  height: 100%;
   display: flex;
   text-align: center;
   flex-direction: column;
