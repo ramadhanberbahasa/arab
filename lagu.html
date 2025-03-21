@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lagu Mufrodat</title>
+    <link rel="stylesheet" href="lagu.css" />
+    <script defer src="lagu.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="back-button">
+        <i class="fa-solid fa-house"></i>
+      </a>
+      <h1>Lagu Mufrodat</h1>
+    </header>
+    <div class="container">
+      <div class="song-list">
+        <div class="satu-halaman">
+          <h1 class="hal-1">Halaman 1</h1>
+          <div class="song-item" data-audio="halaman1.mp3">
+            <button class="play-btn">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <span class="title">Lagu Pertama</span>
+            <input type="range" class="progress-bar" value="0" />
+          </div>
+          <div class="song-item" data-audio="audio3.mp3">
+            <button class="play-btn">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <span class="title">Lagu Kedua</span>
+            <input type="range" class="progress-bar" value="0" />
+          </div>
+        <div class="satu-halaman">
+          <h1 class="hal-2">Halaman 2</h1>
+          <div class="song-item" data-audio="audio2.mp3">
+            <button class="play-btn">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <span class="title">Lagu Pertama</span>
+            <input type="range" class="progress-bar" value="0" />
+          </div>
+          <div class="song-item" data-audio="audio4.mp3">
+            <button class="play-btn">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <span class="title">Lagu Kedua</span>
+            <input type="range" class="progress-bar" value="0" />
+          </div>
+        <!-- Tambahkan halaman lainnya sesuai kebutuhan -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

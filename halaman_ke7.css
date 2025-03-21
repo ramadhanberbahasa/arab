@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+nav {
+  background-color: #344e41;
+  margin: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.navigasi {
+  display: flex;
+  align-items: center;
+  color: #dad7cd;
+}
+a {
+  margin-top: 10px;
+  padding: 10px;
+}
+img {
+  padding: 10px;
+}
+h1 {
+  color: #344e41;
+  font-weight: 800;
+  text-align: center;
+}
+
+/*Judul Halaman*/
+.judul-halaman {
+  color: azure;
+}  
+.container {
+  margin-top: auto;
+  background: #dad7cd;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse:  collapse;
+  margin-top: 100px;
+}
+
+th,
+td {
+  border: 1px solid #344e41;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #344e41;
+  color: #dad7cd;
+}
+
+td {
+  background-color: #dad7cd;
+}
+
+td:nth-child(2) {
+  font-family: "Amiri", serif;
+  font-size: 20px;
+  direction: rtl;
+}

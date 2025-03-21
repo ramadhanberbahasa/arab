@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Taharrok</title>
+    <link rel="stylesheet" href="video.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="back-button"
+        ><i class="fa-solid fa-house"></i
+      ></a>
+      <h1>Taharrok</h1>
+    </header>
+    <div class="daftar-video">
+      <div class="nama-video">Halaman Pertama</div>
+      <div class="video-container">
+        <video id="video1" poster="poto video.jpg">
+          <source src="video1.mp4" type="video/mp4" />
+          Maaf, browser Anda tidak mendukung video ini.
+        </video>
+        <div class="controls">
+          <button id="play-pause" class="control-button">
+            <i class="fa fa-play"></i>
+          </button>
+          <button id="stop" class="control-button">
+            <i class="fa fa-stop"></i>
+          </button>
+          <input type="range" id="seek-bar" value="0" />
+          <button id="fullscreen" class="control-button">
+            <i class="fa fa-expand"></i>
+          </button>
+        </div>
+      </div>
+      <div class="nama-video">Halaman Ke.2</div>
+      <div class="video-container">
+        <video id="video1" poster="cmig soon.jpg">
+          <source src="video/video1.mp4" type="video/mp4" />
+          Maaf, browser Anda tidak mendukung video ini.
+        </video>
+        <div class="controls">
+          <button id="play-pause" class="control-button">
+            <i class="fa fa-play"></i>
+          </button>
+          <button id="stop" class="control-button">
+            <i class="fa fa-stop"></i>
+          </button>
+          <input type="range" id="seek-bar" value="0" />
+          <button id="fullscreen" class="control-button">
+            <i class="fa fa-expand"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="video.js"></script>
+</html>

@@ -1,0 +1,115 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Warna Latar & Layout */
+body {
+  background-color: #e0ddcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+/* Header Fixed */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2d462f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.home-icon {
+  position: absolute;
+  left: 15px;
+  font-size: 24px;
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d8d8d8;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #f0f0e6;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.profile-info h2 {
+  font-size: 16px;
+  color: #2f4f2f;
+}
+
+.profile-info p {
+  text-align: justify;
+  font-size: 12px;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-card img {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .profile-card {
+    flex-direction: row; /* Ubah ini dari column ke row */
+    align-items: center; /* Pastikan ini tetap center */
+  }
+
+  .profile-card img {
+    margin-bottom: 0; /* Hapus margin-bottom */
+    margin-right: 15px; /* Tambahkan margin-right untuk spasi antara gambar dan teks */
+  }
+}
+.penyusun {
+  text-align: center;
+  background-color: #2f4f2f;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
