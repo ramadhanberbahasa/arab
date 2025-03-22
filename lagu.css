@@ -146,10 +146,12 @@ h1 {
 
 .hal-1 {
   color: #2e4a29;
+  font-size: 20px;
   display: contents;
   font-family: sans-serif;
 }
 .hal-2 {
+    font-size: 20px;
   color: #2e4a29;
   display: contents;
   font-family: sans-serif;
